@@ -1,0 +1,16 @@
+@use '../../../src/styles/bundle' as b;
+
+.food{
+    @include b.flexbox(column, center, center);
+    margin-top: 5em;
+
+    .food-container{
+        @include b.flexbox(column, center, center);
+        margin-bottom: 5em;
+    }
+
+    .link:hover{
+        color: purple;
+        font-weight: bold;
+    }
+}

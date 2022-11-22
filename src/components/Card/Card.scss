@@ -1,0 +1,13 @@
+@use '../../../src/styles/bundle' as b;
+
+.card{
+    background: #fff;
+    // width: 20rem;
+    // height: 5rem;
+    border-radius: 5px;
+    padding: 10px;
+
+    &:hover{
+        background: lightblue;
+    }
+}

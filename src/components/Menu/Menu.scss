@@ -1,0 +1,16 @@
+@use '../../../src/styles/bundle' as b;
+
+.menu{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(219, 218, 218);  
+    // background: red;
+
+    .menu-container{
+        height: 100%;
+        width: 100%;
+
+        @include b.flexbox(column, space-around, center);
+
+    }
+}
